@@ -22,6 +22,15 @@
     overflow-x: hidden;
 }
 
+p.medium{
+    font-family: var(--baseFontFamily);
+    color: var(--darkCyan);
+    font-size: 1.2vh;
+    line-height: 1.3;
+    margin: 1.3vh 0vh;
+    width: 74%;
+  }
+  
 .container {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
@@ -270,5 +279,8 @@
     .actionButtonrl img {
         block-size: 8vh;
         margin-block-start: 1.5vh;
+    }
+    p.medium{
+      width: 100% !important;  
     }
 }
