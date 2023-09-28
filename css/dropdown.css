@@ -18,8 +18,9 @@
     padding: 1.4vh 3vh;
     font-size: 2vh;
     cursor: pointer;
-    margin-bottom: 0.3vh;
+    margin: 1.3vh 0.3vh;
     font-family: var(--baseFontFamily);
+
 }
 
 .dropbtn.light {

@@ -109,6 +109,6 @@
     }
     img.ImgenSeccionUno {
         width: auto;
-        height: 40vh;
+        height: 100%;
     }
 }
