@@ -54,7 +54,7 @@ p.medium{
     flex-direction: column;
     font-family: var(--baseFontTitles);
     font-weight: bold;
-    font-size: 9vh;
+    font-size: 7vh;
     margin: 0;
     color: var(--darkCyan);
     line-height: 0.9;

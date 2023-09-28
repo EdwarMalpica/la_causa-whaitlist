@@ -8,11 +8,11 @@
 }
 
 .caja {
-  width: 30vh;
+  width: 28vh;
+  height: 28vh;
   padding: 16px 23px;
   box-sizing: border-box;
   text-align: left;
-  height: 30vh;
   border-radius: 20px;
   color: var(--lightYellow);
   text-transform: uppercase;
