@@ -1,0 +1,187 @@
+#sectionFive{
+    background: var(--lightYellow);
+}
+
+#headingTwoOfSectionFive {
+    inline-size: 90vh;
+    line-height: 0.1;
+    color: var(--darkCyan);
+    font-size: 9vh;
+    margin-top: 8vh;
+}
+
+#contentImageWrapperrlOfSectionFive {
+    gap: 3vw;
+    inline-size: 100vw;
+    block-size: 70vh;
+    bottom: 3vh;
+    gap: 5vw;
+}
+
+#headingTwoOfSectionFive span{
+    line-height: 12vh;
+}
+
+#imgWrapperOfSectionFive {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    block-size: 100vh;
+    bottom: 2vh;
+}
+
+#bgOfSectionFive {
+    display: flex;
+    block-size: 90vh;
+    justify-content: center;
+}
+
+.containerOfComments {
+    position: absolute;
+    display: flex;
+    block-size: 55vh;
+    inline-size: 52vh;
+    bottom: 19vh;
+    right: 10vh;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lightYellow);
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#smallBoldOfSectionFive {
+    font-size: 1.5vh;
+    text-align: center;
+    margin: 0;
+}
+
+#starsReview {
+    inline-size: 10vh;
+}
+
+#photoClient {
+    inline-size: 20vh;
+}
+
+.sectionFive-downloadLinks {
+    display: flex;
+    gap: 1vh;
+}
+
+.sectionFive-downloadLinks img{
+    inline-size: 20vh;
+}
+
+#contentWrapperOfSectionFive {
+    padding-inline-start: 0vw;
+    inline-size: 75%;
+}
+
+@media (orientation:portrait){
+
+    #bgOfSectionFive {
+        display: none;
+    }
+
+    #actionButtonrlOfSectionFive {
+        display: none;
+    }
+
+    #headingTwoOfSectionFive {
+        inline-size: 100%;
+        font-size: 5vh;
+        line-height: .9;
+        margin: 3vh auto;
+    }
+    .accordion br{
+        display: none !important;
+        height: 0px;
+    }
+
+    #headinTwoOfSectonFive span{
+        line-height: 3vh;
+    }
+
+    .containerOfComments {
+        position: absolute;
+        top: 14vh;
+        left: -15vw;
+    }
+
+    #contentWrapperOfSectionFive {
+        padding-inline-start: 0;
+        display: block;
+        margin: 0 auto;
+        inline-size: 90%;
+    }
+
+    #contentImageWrapperrlOfSectionFive {
+        display: block;
+        inline-size: auto;
+        block-size: auto;
+        bottom: 0;
+        top: 0;
+        margin: 50px auto 80px;
+    }
+
+    .containerOfComments {
+        padding: 0;
+        block-size: 38vh;
+    }
+
+    #smallBoldOfSectionFive {
+        display: none;
+    }
+
+    .sectionFive-downloadLinks {
+        display: none;
+    }
+
+    #photoClient {
+        inline-size: 25vh;
+    }
+
+    #starsReview {
+        inline-size: 30vh;
+    }
+
+    .paragraphOfSectionFive {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .paragraphOfSectionFive p {
+        font-size: 3vh;
+        font-weight: bold;
+    }
+
+    #importantParagraphName {
+        font-weight: normal;
+        font-family: var(--baseFontFamily);
+        font-size: 2vh;
+    }
+    .accordion {
+        margin: 4vh 0vh 1vh !important;
+        width: 100%;
+    }
+    .accordion-header h3{
+        font-size: 2.7vh !important; 
+    }
+    #headingTwoOfSectionFive span {
+        line-height: 1;
+    }
+    .accordion-header{ 
+        padding: 1vh 2vh !important;
+    }
+}

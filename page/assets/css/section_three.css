@@ -1,0 +1,99 @@
+#sectionThree article {
+    margin-top: 0vh;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+#headingTwoOfSectionThree {
+    inline-size: 59vh;
+    line-height: .8;
+    color: var(--darkCyan);
+}
+#sectionThree #regularParagraphOfSectionThree {
+    color: var(--darkCyan);
+    inline-size: 40vh;
+    margin: 2vh 0vh;
+    font-size: 5vh;
+}
+
+#sectionThree .regularParagraph {
+    font-family: var(--baseFontFamily);
+    font-weight: normal;
+    font-size: 2vh;
+    inline-size: 50vh;
+    margin-block-start: 2vh;
+    margin-block-end: 2vh;
+    color: var(--darkCyan);
+}
+
+#sectionThree .imgWrapper p {
+   color: var(--darkCyan);
+   text-align: right;
+}
+.textThree img {
+    height: 7vh;
+}
+
+#sectionThree .footerSection p{
+    color: var(--lightYellow);
+}
+p.copy.colorYellow{
+    color: var(--darkYellow) !important;
+}
+@media (min-width: 1200px) {
+    #sectionThree .imgWrapper p {
+        inline-size: 50vh;
+    }
+    #sectionThree #regularParagraphOfSectionThree {
+        font-size: 4vh;
+    }
+    #sectionThree .column.contentWrapper {
+        display: grid;
+    }
+    #headingTwoOfSectionThree {
+        inline-size: 60vh;}
+}
+@media (orientation:portrait) {
+    #sectionThree #headingTwoOfSectionThree br{
+        display: block;
+    }
+    #headingTwoOfSectionThree {
+        inline-size: auto;
+        line-height: .9;
+        text-align: center;
+        margin-top: 5vh;
+        font-size: 5vh;
+    }
+    #sectionThree article{
+        margin-bottom: 0vh;
+    }
+
+    #imgWrapperOfSectionThree img{
+        block-size: 45vh;
+    }
+    #sectionThree img.openModal {
+        height: 40vh;
+        width: auto;
+        margin-block-start: 3vh;
+        margin-block-end: 1.5vh;
+    }
+    #sectionThree #regularParagraphOfSectionThree{
+        font-size: 4.15vh;
+    }
+    #sectionThree .regularParagraph{
+        inline-size: auto;
+    }
+    .textThree {
+        text-align: center;
+    }
+    #sectionThree .contentWrapper img {
+        width: 60vw;
+        margin: 2vh auto;
+        padding: 2vh 0;
+    }
+    #sectionThree .footerSection{
+        display: flex;
+    }
+    #sectionThree .column.contentWrapper {
+        block-size: 710px;
+    }
+    
+}

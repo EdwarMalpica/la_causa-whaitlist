@@ -1,0 +1,98 @@
+.dropbtn {
+    background: var(--darkCyan);
+    color: var(--lightYellow);
+    border: 0.3vh solid var(--darkYellow);
+    border-radius: 5vh;
+    padding: 1.4vh 3vh;
+    font-size: 2vh;
+    cursor: pointer;
+    margin-bottom: 0.3vh;
+    font-family: var(--baseFontFamily);
+}
+
+.dropbtn2 {
+    background: var(--darkCyan);
+    color: var(--lightYellow);
+    border: 0.3vh solid var(--darkYellow);
+    border-radius: 5vh;
+    padding: 1.4vh 3vh;
+    font-size: 2vh;
+    cursor: pointer;
+    margin-bottom: 0.3vh;
+    font-family: var(--baseFontFamily);
+}
+
+.dropbtn.light {
+    border: 0.3vh solid var(--lightYellow);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: var(--lightYellow);
+    text-decoration: none;
+    display: block;
+    padding: 1vh;
+    font-size: 2vh;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--darkYellow);
+    border-radius: 2vh;
+}
+
+.show {
+    display: block;
+    border-radius: 20px;
+    border: 0.3vh solid var(--darkYellow);
+    background: var(--darkCyan);
+    padding: 1.5vh;
+    width: 16vh;
+}
+
+
+#dropDownLight.show{
+    border: 0.3vh solid var(--darkYellow);
+}
+
+.icon-download {
+    margin-right: 0.5vh;
+    font-size: 1.5vh;
+}
+
+i.fa {
+    margin-right: 0.5vh;
+}
+@media (orientation:portrait) {
+    .dropbtn{
+        padding: 1.4vh 2vh;
+        font-size: 1.2vh;
+    }
+    .icon-download {
+    margin-right: 0.5vh;
+    font-size: 1.5vh;
+    }
+}
+
+.styleBtn{
+    background: var(--darkCyan);
+    color: var(--lightYellow);
+    border: 0.3vh solid var(--darkYellow);
+    border-radius: 5vh;
+    padding: 1.4vh 3vh;
+    font-size: 2vh;
+    cursor: pointer;
+    margin-bottom: 0.3vh;
+    font-family: var(--baseFontFamily);
+}

@@ -1,0 +1,58 @@
+#sectionTwo{
+    background: var(--lightYellow);
+}
+.headingTwo span{
+    color: var(--darkYellow);
+    line-height: 0.9;
+}
+#sectionTwo .headingTwo span{
+line-height: 0.8;
+}
+#boldParagrahOfSectionTwo {
+    inline-size: 58vh;
+}
+#sectionTwo .headingTwo span {
+    color: var(--darkYellow);
+}
+#imgWrapperSectionTwo p {
+    text-align: center;
+    color: var(--darkCyan);
+    inline-size: 35vh;
+}
+#sectionTwo .copyWrapper .copy{
+    color: var(--lightYellow);
+}
+
+@media (orientation:portrait) {
+    .imgWrapper img{
+        position: relative;
+        left: 5vw;
+        block-size: 50vh;
+    }
+
+    #boldParagrahOfSectionTwo {
+        text-align: center;
+        inline-size: 40vh;
+    }
+    #sectionTwo .headingTwo {
+        inline-size: 40vh;
+    }
+    #sectionTwo .headingTwo{
+        font-size: 5.5vh;
+    }
+    #sectionTwo .imgWrapper img{
+        left: 0.4vw;  
+    }
+    #sectionTwo p.small {
+        font-size: 1.3vh;
+        line-height: 1.3;
+        inline-size: 37vh;
+        text-align: center;
+        margin-block-start: 3vh;
+    }
+    .sectionTwo-downloadLinks {
+        margin: 2.5vh 0vh;
+    }
+}
+
+

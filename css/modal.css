@@ -1,0 +1,280 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 6;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: opacity 0.3s ease-in-out;
+    backdrop-filter: blur(5px);
+}
+
+iframe {
+    width: 100%;
+    height: 70vh;
+}
+
+/* Estilos para la animación de slide in */
+.modal.mostrar {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Estilos para la animación de slide out */
+.modal.esconder {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+
+.modal-contenido {
+    background-color: var(--darkCyan);
+    margin: 8vh auto;
+    padding: 5vh 4vh;
+    width: 60vw;
+    position: relative;
+    transform: translate(0, 0);
+}
+
+#modalCuenta .modal-contenido {
+    background-color: var(--lightYellow);
+    margin: 8vh auto;
+    padding: 5vh 4vh;
+    width: 100%;
+    height: 28vh;
+    position: relative;
+    transform: translate(0, 0);
+    border-radius: 20px;
+}
+#modalCuenta .modal-contenido .modal-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#modalCuenta .titleModalC{
+    font-family: var(--baseFontTitles);
+    font-size: 4vw;
+    line-height: .85;
+    font-weight: bold;
+    margin-block-start: 0;
+    margin-block-end: 2vh;
+}
+
+.divButton {
+    margin-block-start: 4vh;
+}
+
+#modalCuenta .cerrar {
+    color: var(--darkCyan);
+    right: 15px;
+    top: 15px;
+    font-size: 3vh;
+}
+
+#modalCuenta .titleModalC sup {
+    font-size: 1vw;
+    vertical-align: top;
+}
+
+.cerrar {
+    color: var(--lightYellow);
+    position: absolute;
+    right: 0vh;
+    top: 0vh;
+    font-size: 4vh;
+    background: transparent;
+    border: 0vh;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+    color: var(--darkYellow);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (orientation:portrait) {
+    .modal {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-contenido {
+        margin: 0;
+        padding: 5vh 2vh 2vh;
+    }
+
+    iframe {
+        width: 100%;
+        height: 40vh;
+    }
+    .cerrar{
+        right: 1vh;
+        top: 1vh;
+        font-size: 2vh;   
+    }
+}.modal {
+    display: none;
+    position: fixed;
+    z-index: 6;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: opacity 0.3s ease-in-out;
+    backdrop-filter: blur(5px);
+}
+
+iframe {
+    width: 100%;
+    height: 70vh;
+}
+
+/* Estilos para la animación de slide in */
+.modal.mostrar {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Estilos para la animación de slide out */
+.modal.esconder {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+
+.modal-contenido {
+    background-color: var(--darkCyan);
+    margin: 8vh auto;
+    padding: 5vh 4vh;
+    width: 60vw;
+    position: relative;
+    transform: translate(0, 0);
+}
+
+#modalCuenta .modal-contenido {
+    background-color: var(--lightYellow);
+    margin: 12vh auto 2vh;
+    padding: 5vh 4vh;
+    width: 650px;
+    height: 24vh;
+    position: relative;
+    transform: translate(0, 0);
+    border-radius: 20px;
+}
+#modalCuenta .modal-contenido .modal-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#modalCuenta .titleModalC{
+    font-family: var(--baseFontTitles);
+    font-size: 3vw;
+    line-height: .85;
+    font-weight: bold;
+    margin-block-start: 0;
+    margin-block-end: 2vh;
+}
+
+.divButton {
+    margin-block-start: 4vh;
+}
+
+#modalCuenta .cerrar {
+    color: var(--darkCyan);
+    right: 15px;
+    top: 15px;
+    font-size: 3vh;
+}
+
+#modalCuenta .titleModalC sup {
+    font-size: 1vw;
+    vertical-align: top;
+}
+
+#modalCuenta .modal-footer {
+    width: 720px;
+    margin: 0 auto;
+}
+#modalCuenta .modal-footer .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#modalCuenta .modal-footer .row .col-6{
+    color: var(--lightYellow);
+    font-weight: bold;
+    font-family: var(--baseFontFamily);
+    display: flex;
+    align-items: center;
+}
+#modalCuenta .modal-footer .row .col-6 img{
+    height: 2vh;
+    margin-right: 1vw;
+}
+
+.cerrar {
+    color: var(--lightYellow);
+    position: absolute;
+    right: 0vh;
+    top: 0vh;
+    font-size: 4vh;
+    background: transparent;
+    border: 0vh;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+    color: var(--darkYellow);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (orientation:portrait) {
+    .modal {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .modal-contenido {
+        margin: 50% auto;
+        padding: 5vh 2vh 2vh;
+    }
+
+    iframe {
+        width: 100%;
+        height: 40vh;
+    }
+    .cerrar{
+        right: 1vh;
+        top: 1vh;
+        font-size: 2vh;   
+    }
+    #modalCuenta .modal-contenido{
+        width: 60vw;
+        height: 52vh; 
+    }
+    #modalCuenta .modal-contenido .modal-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #modalCuenta .titleModalC{
+        font-size: 13vw;
+    }
+    .divButton {
+        margin-block-start: 2vh;
+        display: contents;
+    }
+    .styleBtn {
+        width: 80%;
+        margin-top: 1vh; 
+    }
+}

@@ -1,0 +1,114 @@
+#sectionOne{
+    background: var(--lightYellow);
+}
+
+.headingOne-firstLine {
+    color: var(--darkCyan);
+    line-height: 0.85;
+}
+
+.headingOne-secondLine {
+    color: var(--darkYellow);
+    line-height: 0.9;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-inline-start: 1em;
+    gap: 0.5em;
+    inline-size: 50%;
+}
+
+.sectionOne-downloadLinks {
+    display: flex;
+    gap: 1vh;
+}
+
+.sectionOne-downloadLinks img{
+    inline-size: 15vh;
+}
+
+.imgWrapper img{
+    block-size: 80vh;
+    cursor: pointer;
+    margin-right: 7vw;
+}
+
+#sectionTh img {
+    height: 60vh;
+    width: auto;
+}
+
+.imgWrapper p {
+    inline-size: 40vh;
+    font-size: 1.25vh;
+    margin: 0 auto;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.icon-icon_cotizar:before {
+    font-size: 1.5vh;
+    margin-left: 0.8vh;
+}
+
+#titleEnvia{
+    font-family: var(--baseFontFamily);
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin-block-start: 2vh;
+    margin-block-end: 2vh;
+}
+
+/*Form*/
+.form-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-row input {
+    border: 2px solid #10454F;
+    background: transparent;
+    background-image: url(https://somossacbe.com/blog/wp-content/uploads/2023/03/plus.svg);
+    background-repeat: no-repeat;
+    background-position: 12px 14px;
+    background-size: 18px;
+    color: #10454F;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0.7rem 0.8rem 0.5rem 2.35rem;
+    text-transform: uppercase;
+    border-radius: 0px;
+    font-family: var(--baseFontTitles);
+    font-weight: 400;
+    font-size: 1.45rem;
+    letter-spacing: 0.5px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.form-row .col {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#sendForm {
+    padding: 1vh 6.5vh;
+    margin-top: 1vh;
+}
+@media (orientation:portrait) {
+    .imgWrapper img{
+        block-size: 45vh;
+    }
+    #sectionThreeOne {
+        block-size: auto;
+    }
+    img.ImgenSeccionUno {
+        width: auto;
+        height: 40vh;
+    }
+}
