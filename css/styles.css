@@ -47,7 +47,8 @@
     color: var(--darkCyan);
     font-size: .75rem;
     line-height: 1;
-    margin: 0px 3vh;
+    margin: 0px 0px;
+    width: 70%;
 }
 
 #sectionOneTerminos {

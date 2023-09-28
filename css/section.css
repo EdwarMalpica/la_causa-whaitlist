@@ -30,7 +30,7 @@ p.medium{
     margin: 1.3vh 0vh;
     width: 74%;
   }
-  
+
 .container {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
@@ -110,7 +110,7 @@ p.medium{
     font-weight: 600;
     margin-block-start: 2vh;
     margin-block-end: 2vh;
-    margin: 0px 2vh;
+    width: 90%;
 }
 
 .regularParagraph {
@@ -211,12 +211,13 @@ p.medium{
         position: relative;
         left: 0;
         width: 100%;
+        height: auto;
         margin: 2vh 0vw;
     }
 
     .headingOne {
         align-items: center;
-        font-size: 8vh;
+        font-size: 6vh;
         text-align: center;
     }
     .group_download.mt-4 img {
@@ -254,6 +255,9 @@ p.medium{
         width: 90%;
         margin: 40px auto 20px;
         text-align: center;
+    }
+    .small{
+        width: 90% !important;
     }
 
     .contentImageWrapperrl {
