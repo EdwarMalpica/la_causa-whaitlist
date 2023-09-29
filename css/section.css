@@ -37,6 +37,7 @@ p.medium{
     block-size: 100vh;
 }
 
+
 /* Heading 1 Styles */
 .headingOne {
     display: flex;
@@ -178,6 +179,11 @@ p.medium{
 }
 
 @media (orientation:portrait) {
+    .boxCenter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .section {
         top: 0vh;
         display: block;
