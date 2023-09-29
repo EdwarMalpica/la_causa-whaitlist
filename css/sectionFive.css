@@ -104,6 +104,9 @@
         line-height: .9;
         margin: 3vh auto;
     }
+    #headingTwoOfSectionFive div{
+        justify-content: center;
+    }
     .accordion br{
         display: none !important;
         height: 0px;
