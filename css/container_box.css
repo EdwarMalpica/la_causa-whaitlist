@@ -69,15 +69,18 @@
     min-height: 270px;
     min-width: 270px;
     margin: 0 auto;
+    position: relative;
   }
 
   .caja .texto {
-    font-size: calc(1vh * 1vw);
+    font-size: 1.7rem;
     height: 12vw;
-    display: block;
     text-align: left;
-    position: relative;
-    bottom: -12px;
+    display: flex;
+    position: absolute;
+    bottom: 40px;
+
+
   }
   .dropbtn2 {
     width: 100% !important;
@@ -94,10 +97,10 @@
  
 
   .caja .texto {
-    font-size: calc(1vh * 1vw);
+    font-size: 1.5rem;
     height: 12vw;
     display: block;
-    text-align: center;
+    text-align: left;
   }
 }
 
