@@ -96,7 +96,7 @@ iframe {
     cursor: pointer;
 }
 
-@media (orientation:portrait) {
+@media screen and (max-width: 940px) {
     .modal {
         justify-content: center;
         align-items: center;
@@ -235,7 +235,7 @@ iframe {
     cursor: pointer;
 }
 
-@media (orientation:portrait) {
+@media screen and (max-width: 940px) {
     .modal {
         justify-content: center;
         align-items: center;

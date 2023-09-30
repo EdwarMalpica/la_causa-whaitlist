@@ -96,7 +96,7 @@
     font-weight: bold;
 }
 
-@media (orientation:portrait) {
+@media screen and (max-width: 940px) {
     .header {
         block-size: 6vh;
     }

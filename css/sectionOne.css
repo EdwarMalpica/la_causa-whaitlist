@@ -100,7 +100,7 @@
     padding: 1vh 6.5vh;
     margin-top: 1vh;
 }
-@media (orientation:portrait) {
+@media screen and (max-width: 940px) {
     .imgWrapper img{
         block-size: 45vh;
     }

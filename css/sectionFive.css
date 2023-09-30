@@ -88,7 +88,7 @@
     inline-size: 75%;
 }
 
-@media (orientation:portrait){
+@media screen and (max-width: 940px){
 
     #bgOfSectionFive {
         display: none;

@@ -4,12 +4,16 @@
 
 #imgWrapperOfSectionSix {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     position: relative;
-    inline-size: 45vw;
+    width: 50%;
     block-size: 100vh;
     bottom: 2vh;
+    overflow: hidden;
+}
+#imgWrapperOfSectionSix img{
+    height: 100%;
 }
 
 #headingTwoOfSectionSix {
@@ -23,15 +27,15 @@
 }
 
 #contentImageWrapperrlOfSectionSix {
+    width: 100%;
     gap: 3vw;
-    inline-size: 100vw;
     block-size: 70vh;
     bottom: 3vh;
-    gap: 5vw;
 }
 
 #contentWrapperOfSectionSix {
     padding-inline-start: 12.5vw;
+    width: 40%;
 }
 
 #stickerLogoOfSectionSix {
@@ -58,7 +62,7 @@
     background-color: var(--lightYellow);
 }
 
-@media (orientation:portrait){
+@media screen and (max-width: 940px){
     #contentWrapperOfSectionSix {
         padding-inline-start: 0;
         text-align: center;

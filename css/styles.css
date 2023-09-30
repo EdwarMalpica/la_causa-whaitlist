@@ -83,7 +83,7 @@
   padding-bottom: 1vh;
 }
 
-@media (orientation:portrait) {
+@media screen and (max-width: 940px) {
   .col-12 {
     width: 90vw; 
   }

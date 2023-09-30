@@ -75,7 +75,7 @@
     font-size: 3vh;
     line-height: 1;
 }
-@media (orientation:portrait) {
+@media screen and (max-width: 940px) {
     #contentWrapperOfSectionThree {
         inline-size: 90vw;
         margin: 0 auto;
@@ -173,7 +173,7 @@
 #copyOfSectionNew{
     color: var(--darkYellow);
 }
-@media (orientation:portrait) {
+@media screen and (max-width: 940px) {
     #contentImageWrapperrlOfSectionThree {
         block-size: auto;
         display: block;

@@ -17,6 +17,7 @@
   color: var(--lightYellow);
   text-transform: uppercase;
   font-family: var(--baseFontTitles);
+  margin: auto;
 }
 
 .caja .icono {
@@ -31,9 +32,9 @@
 
 .caja .texto {
   display: flex;
-  font-size: 2.8vw;
+  font-size: 2rem;
   line-height: 0.9;
-  justify-content: flex-end;
+  justify-content: center;
   width: 100%;
   flex-direction: column;
   height: 19.5vh;
@@ -55,7 +56,7 @@
   background-color: var(--darkYellow);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 940px) {
   .contenedor-principal {
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +72,7 @@
   }
 
   .caja .texto {
-    font-size: 4.5vh;
+    font-size: calc(1vh * 1vw);
     height: 12vw;
     display: block;
     text-align: left;
@@ -82,7 +83,7 @@
     width: 100% !important;
   }
 }
-@media screen and (max-width: 1200px) and (min-width: 769px) {
+@media screen and (max-width: 1200px) and (min-width: 940px) {
   .contenedor-principal {
     display: flex;
     flex-wrap: wrap;
@@ -90,15 +91,10 @@
     justify-content: end;
     gap: 3vh;
   }
-  .caja {
-    width: 76vw;
-    height: 28vh;
-    min-height: 250px;
-    margin: 0 auto;
-  }
+ 
 
   .caja .texto {
-    font-size: 5.5vh;
+    font-size: calc(1vh * 1vw);
     height: 12vw;
     display: block;
     text-align: center;
@@ -106,7 +102,7 @@
 }
 
 /*
-@media (orientation:portrait) {
+@media screen and (max-width: 940px) {
   .contenedor-principal {
     display: flex;
     flex-wrap: wrap;
