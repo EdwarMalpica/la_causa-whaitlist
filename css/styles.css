@@ -1,54 +1,54 @@
-@import './fonts.css';
-@import './body.css';
-@import './section.css';
-@import './link.css';
-@import './header.css';
+@import "./fonts.css";
+@import "./body.css";
+@import "./section.css";
+@import "./link.css";
+@import "./header.css";
 
 :root {
   --darkCyan: #0f4451;
   --lightYellow: #fff6d2;
-  --darkYellow: #E9993E;
-  --aqua:#317C82;
-    --baseFontTitles: Tungsten, Helvetica, sans-serif;
-    --baseFontFamily: Sintony, Helvetica, sans-serif;
+  --darkYellow: #e9993e;
+  --aqua: #317c82;
+  --baseFontTitles: Tungsten, Helvetica, sans-serif;
+  --baseFontFamily: Sintony, Helvetica, sans-serif;
 }
 .slide-in-left {
-	-webkit-animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-left 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  -webkit-animation: slide-in-left 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-left 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 @-webkit-keyframes slide-in-left {
-    0% {
-      -webkit-transform: translateX(-1000px);
-              transform: translateX(-1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
   }
-  @keyframes slide-in-left {
-    0% {
-      -webkit-transform: translateX(-1000px);
-              transform: translateX(-1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateX(0);
-              transform: translateX(0);
-      opacity: 1;
-    }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
   }
-  
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .small {
-    font-family: var(--baseFontFamily);
-    color: var(--darkCyan);
-    font-size: .75rem;
-    line-height: 1;
-    margin: 0px 0px;
-    width: 70%;
+  font-family: var(--baseFontFamily);
+  color: var(--darkCyan);
+  font-size: 0.75rem;
+  line-height: 1;
+  margin: 0px 0px;
+  width: 70%;
 }
 
 #sectionOneTerminos {
@@ -61,62 +61,66 @@
   display: block;
   width: 70vw;
   margin: 0 auto;
-  color:var(--lightYellow);
+  color: var(--lightYellow);
   padding-top: 5vh;
   padding-bottom: 10vh;
 }
-.col-12 h1{
+.col-12 h1 {
   font-size: 6vh;
   color: var(--darkYellow);
   text-transform: uppercase;
   font-family: var(--baseFontTitles);
 }
-.col-12 a{
-  color:var(--darkYellow);
+.col-12 a {
+  color: var(--darkYellow);
   font-weight: bold;
 }
 
-.col-12 ul{
+.col-12 ul {
   padding-left: 1vw;
 }
-.col-12 ul li{
+.col-12 ul li {
   padding-bottom: 1vh;
 }
 .preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--darkCyan);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--darkCyan);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999009;
 }
 .logo {
-    width: 800px;
-    height: 800px;
-    background-image: url('../assets/img/Logo-intro-la-causa.gif');
-    background-repeat: no-repeat;
-    background-size: contain;
-    animation: zoomInLogo 2s forwards;
+  width: 400px;
+  height: 400px;
+  background-image: url("../assets/img/Logo-intro-la-causa.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: zoomInLogo 2s forwards;
 }
 @media screen and (max-width: 940px) {
   .col-12 {
-    width: 90vw; 
+    width: 90vw;
+  }
+  .logo{
+    width: 200px;
+    height: 200px;
   }
   #sectionOneTerminos {
     font-size: 12px;
-}
+  }
   .col-12 h1 {
     margin-top: 0px;
-    line-height: .85; 
+    line-height: 0.85;
   }
-  .termsTitle{
+  .termsTitle {
     margin-top: 5vh !important;
   }
-  p.medium{
+  p.medium {
     font-family: var(--baseFontFamily);
     color: var(--darkCyan);
     font-size: 1.2vh;
@@ -124,6 +128,4 @@
     margin: 1.3vh 0vh;
     width: 100%;
   }
-  
 }
-
