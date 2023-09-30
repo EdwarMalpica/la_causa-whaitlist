@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 50%;
+    width: 44%;
     block-size: 100vh;
     bottom: 2vh;
     overflow: hidden;
@@ -35,7 +35,7 @@
 
 #contentWrapperOfSectionSix {
     padding-inline-start: 12.5vw;
-    width: 40%;
+    width: 45%;
 }
 
 #stickerLogoOfSectionSix {
