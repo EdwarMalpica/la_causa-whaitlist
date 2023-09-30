@@ -35,7 +35,7 @@ button[disabled=disabled], button:disabled {
     border-color: black;
 }
 
-@media (orientation:portrait) {
+@media screen and (max-width: 940px) {
     #btnHeader {
         display: block;
         padding: 1vh 0.3vh;
@@ -48,6 +48,7 @@ button[disabled=disabled], button:disabled {
         z-index: 2;
     } 
     .btnLanding{
+        width: initial;
         top: 100px;
     }
     .btnLanding #btnHeader2 {
@@ -55,6 +56,7 @@ button[disabled=disabled], button:disabled {
         font-size: 3vh;
         margin-top: 1vh;
         line-height: 1;
+        margin-left: 0;
     }
     .icoBlog img {
         height: 17px !important;

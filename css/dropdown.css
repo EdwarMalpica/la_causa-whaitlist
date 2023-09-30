@@ -74,7 +74,7 @@
 i.fa {
     margin-right: 0.5vh;
 }
-@media (orientation:portrait) {
+@media screen and (max-width: 940px) {
     .dropbtn{
         padding: 1.4vh 2vh;
         font-size: 1.2vh;

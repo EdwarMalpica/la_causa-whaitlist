@@ -74,7 +74,6 @@ p.medium{
 .contentImageWrapperlr {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     inline-size: 75vw;
     block-size: 70vh;
     position: relative;
@@ -87,7 +86,6 @@ p.medium{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    inline-size: 75vw;
     block-size: 70vh;
     position: relative;
     bottom: 3vh;
@@ -178,7 +176,7 @@ p.medium{
     }
 }
 
-@media (orientation:portrait) {
+@media screen and (max-width: 940px) {
     .boxCenter{
         display: flex;
         align-items: center;

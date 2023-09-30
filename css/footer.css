@@ -91,7 +91,7 @@ hr{
     padding-block-end: 3vh;
 }
 
-@media (orientation:portrait) {
+@media screen and (max-width: 940px) {
     #sectionFooter{
         block-size: auto;
     }

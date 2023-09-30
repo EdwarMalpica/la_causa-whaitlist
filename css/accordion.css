@@ -133,7 +133,7 @@
     margin-bottom: .3vh;
   }
   
-  @media (orientation:portrait){
+  @media screen and (max-width: 940px){
     .popup_accordeon.active .modal-body{
       padding: 8vh 4vh 4vh 4vh;
       width: 80%;
