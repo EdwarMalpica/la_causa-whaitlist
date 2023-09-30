@@ -74,6 +74,7 @@ p.medium{
 .contentImageWrapperlr {
     display: flex;
     align-items: center;
+    justify-content: center;
     inline-size: 75vw;
     block-size: 70vh;
     position: relative;

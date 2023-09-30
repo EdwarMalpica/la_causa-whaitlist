@@ -82,7 +82,26 @@
 .col-12 ul li{
   padding-bottom: 1vh;
 }
-
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--darkCyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+.logo {
+    width: 800px;
+    height: 800px;
+    background-image: url('../assets/img/Logo-intro-la-causa.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: zoomInLogo 2s forwards;
+}
 @media screen and (max-width: 940px) {
   .col-12 {
     width: 90vw; 
