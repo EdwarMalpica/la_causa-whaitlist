@@ -73,13 +73,11 @@
   }
 
   .caja .texto {
-    font-size: 1.7rem;
-    height: 12vw;
+    font-size: 2.5rem;
     text-align: left;
     display: flex;
-    position: absolute;
-    bottom: 40px;
-
+    justify-content: end;
+    height: 70%;
 
   }
   .dropbtn2 {
@@ -97,10 +95,11 @@
  
 
   .caja .texto {
-    font-size: 1.5rem;
+    font-size: 2rem;
     height: 12vw;
-    display: block;
+    display: flex;
     text-align: left;
+    justify-content: end;
   }
 }
 
