@@ -49,6 +49,9 @@ p {
 .text-wrapper-404 {
   height: 600px;
   width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .tungsten {
@@ -94,14 +97,37 @@ p {
     align-items: center;
     height: 100%;
   }
-
+  .image-wrapper-404 {
+    width: 350px;
+  }
+  .text-content-404 {
+    font-size: 16px;
+  }
+  h1 {
+    line-height: 90px;
+  }
+  .text-wrapper-404 {
+    width: 300px;
+    height: 420px;
+  }
   .btn-flex {
     width: 40% !important;
     padding: 20px 40px 20px 40px;
   }
-
+  .caption-404 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
   .image-wrapper-404 {
     height: 300px;
+  }
+
+  .error-word {
+    font-size: 80px;
+  }
+
+  .word-404 {
+    font-size: 150px;
   }
 
   .text-wrapper-404 {
