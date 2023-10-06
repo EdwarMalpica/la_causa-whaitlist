@@ -121,7 +121,8 @@
 }
 .hero-footer-disclaimer {
   margin: 0;
-  width: 400px;
+  margin-top: 20px;
+  width: 410px;
   font-size: 12px;
   text-align: start;
 }
@@ -157,6 +158,24 @@
   padding: 1vh 6.5vh;
   margin-top: 1vh;
 }
+.margin-none {
+  margin: 0 !important;
+}
+
+.title-hero {
+  font-size: 127px !important;
+  white-space: nowrap;
+}
+.caption-hero {
+  margin: 0 !important;
+  font-size: 22px !important;
+  max-width: 508px !important;
+}
+.download-btn {
+  width: 35%;
+  margin: 0;
+  position: relative;
+}
 @media screen and (max-width: 940px) {
   .imgWrapper img {
     block-size: 45vh;
@@ -173,6 +192,7 @@
   #sectionThreeOne {
     block-size: auto;
   }
+
   img.ImgenSeccionUno {
     width: auto;
     height: 100%;
@@ -196,10 +216,20 @@
     gap: 10px;
     align-self: center;
   }
+  .title-hero {
+    font-size: 67px !important;
+  }
   .hero-footer-disclaimer {
     margin: 0;
     width: 300px;
     font-size: 12px;
     text-align: center;
+  }
+
+  .caption-hero {
+    margin: 0 !important;
+    font-size: 18px !important;
+    max-width: 508px !important;
+    width: 322px;
   }
 }
