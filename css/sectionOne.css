@@ -18,7 +18,7 @@
   margin: 0;
   padding-inline-start: 1em;
   gap: 20px;
-  max-width: 600px;
+  /* max-width: 600px; */
   inline-size: 50%;
 }
 .hero-footer {
@@ -161,7 +161,12 @@
   .imgWrapper img {
     block-size: 45vh;
   }
-
+  .hero-content-container {
+    max-width: 250px;
+  }
+  .hero-footer-disclaimer {
+    font-size: 08px !important;
+  }
   .hide-mobile {
     display: none;
   }
@@ -192,7 +197,7 @@
   }
   .hero-footer-disclaimer {
     margin: 0;
-    width: 400px;
+    width: 300px;
     font-size: 12px;
     text-align: center;
   }
