@@ -96,13 +96,11 @@
 }
 .logo {
   width: 400px;
-  height: 400px;
   background-image: url("../assets/img/Logo-intro-la-causa.gif");
-  background-repeat: no-repeat;
-  background-size: contain;
   animation: zoomInLogo 2s forwards;
 }
 @media screen and (max-width: 940px) {
+  
   .col-12 {
     width: 90vw;
   }
