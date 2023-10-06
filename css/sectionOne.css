@@ -179,6 +179,7 @@
   }
   .hero-section {
     block-size: 100vh !important;
+    overflow-y: hidden;
   }
   .hero-footer {
     align-self: center;
