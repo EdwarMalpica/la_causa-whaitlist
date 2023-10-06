@@ -102,165 +102,69 @@
     <div class="container">
         <main>
             <!-- Section One -->
-            <section class="section" id="sectionOne">
+            <section class="section " id="sectionOne">
+
                 <div class="contentImageWrapperlr">
-                    <div class="contentWrapper">
-                        <p class="headingOne">
-                            <span class="headingOne-firstLine textUppercase">
-                                Te damos la<br> bienvenida a 
+                    <div class="contentWrapper hero-content-container">
+                        <!-- TILE -->
+                        <p class="headingOne title-hero" >
+                            <span class="headingOne-firstLine">
+                                BIENVENIDO A
                             </span>
                             <span class="headingOne-secondLine">
-                                LA CAUSA VISA™
+                                 LA CAUSA VISA™
                             </span>
                         </p>
-                        <h1 class="veryImportantParagraph textUppercase">
-                            REGÍSTRATE Y ENVÍA DINERO DE FORMA <br> SEGURA A MÉXICO* POR $1.50 USD**
-                        </h1>
-                        <!-- Note :
-   - You can modify the font style and form style to suit your website.
-   - Code lines with comments Do not remove this code are required for the form to work properly, make sure that you do not remove these lines of code.
-   - The Mandatory check script can modified as to suit your business needs.
-   - It is important that you test the modified form before going live.-->
-   <div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm' style='background-color: #FFF6D2;color: black;max-width: 600px;'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-     <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
-     <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads5842249000000938063 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory5842249000000938063()' accept-charset='UTF-8'>
-   <input type='text' style='display:none;' name='xnQsjsdp' value='ebc2c2868ab25c7166dec961ed55d2cf23ffb4955fa59c57ee41f85b359b007d'></input>
-   <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
-   <input type='text' style='display:none;' name='xmIwtLD' value='96f660af4bb3a3b3e0732287c05e9cf867bc00f37061ecfd39c10dbebf3d7df6'></input>
-   <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
-   <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;lacausa.us&#x2f;thankyoupage.html' > </input>
-	 <!-- Do not remove this code. -->
-    <div class='form-row boxCenter'>
-        <div class='col'>
-            <label for='name'></label>
-            <input type='text' id='Last_Name' name='Last Name' class='form-control'
-                placeholder='Nombre' autocomplete='off' maxlength='40'>
-        </div>
-        <div class='col'>
-            <label for='phone'></label>
-            <input type='tel' id='Phone' name='Phone' class='form-control'
-                placeholder='Teléfono' autocomplete='off' maxlength='30'>
-        </div>
-    </div>
+                        <!-- CAPTION -->
+                        <p class="caption-hero" ><b>Abre una cuenta La Causa en USA y comienza a enviar dinero a México*</b> o solicita una Tarjeta de Débito  Prepagada Visa™ La Causa**</p>
+                        <!-- DOWNLOAD BUTTON -->
+                        <button  class="dropbtn2 download-btn hide-mobile">
+                            Descargar
+                            <div class="download-btn-menu">
+                            <div class="container-download" >
+                                <a class="download-menu-link" href="https://play.google.com/store/apps/details?id=com.sacbepayments.lacausa.android"><i
+                                    class="fa fa-android" aria-hidden="true"></i> <span>
 
-    <div class='form-row boxCenter'>
-        <div class='col'>
-            <label for='email'></label>
-            <input type='email' id='Email' name='Email' class='form-control'
-                placeholder='EMAIL' autocomplete='off' maxlength='100'>
-        </div>
-        <div class='col'>
-            <label for='state'></label>
-            <input type='number' id='Zip_Code' name='Zip Code' class='form-control'
-                placeholder='Código Postal' autocomplete='off' maxlength='100'>
-        </div>
-    </div>
-    <div class='form-row'>
+                                        Android
+                                    </span>
+                                 </a>
+                                 <a class="download-menu-link" href="https://apps.apple.com/us/app/la-causa/id6467048483"><i
+                                    class="fa fa-apple" aria-hidden="true"></i> <span>
 
-    </div>
-    <button type='submit' id='formsubmit' class='dropbtn2' value='Enviar'
-        title='Enviar'>Enviar</button>
-                                <script>
-                                    function validateEmail5842249000000938063() {
-                                        var form = document.forms['WebToLeads5842249000000938063'];
-                                        var emailFld = form.querySelectorAll('[ftype=email]');
-                                        var i;
-                                        for (i = 0; i < emailFld.length; i++) {
-                                            var emailVal = emailFld[i].value;
-                                            if ((emailVal.replace(/^\s+|\s+$/g, '')).length != 0) {
-                                                var atpos = emailVal.indexOf('@');
-                                                var dotpos = emailVal.lastIndexOf('.');
-                                                if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= emailVal.length) {
-                                                    alert('Introduzca una dirección de correo electrónico válida. ');
-                                                    emailFld[i].focus();
-                                                    return false;
-                                                }
-                                            }
-                                        }
-                                        return true;
-                                    }
-
-                                    function checkMandatory5842249000000938063() {
-                                        var mndFileds = new Array('Last Name');
-                                        var fldLangVal = new Array('Nombre');
-                                        for (i = 0; i < mndFileds.length; i++) {
-                                            var fieldObj = document.forms['WebToLeads5842249000000938063'][mndFileds[i]];
-                                            if (fieldObj) {
-                                                if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
-                                                    if (fieldObj.type == 'file') {
-                                                        alert('Seleccione un archivo para cargar.');
-                                                        fieldObj.focus();
-                                                        return false;
-                                                    }
-                                                    alert(fldLangVal[i] + ' no puede estar vacío.');
-                                                    fieldObj.focus();
-                                                    return false;
-                                                } else if (fieldObj.nodeName == 'SELECT') {
-                                                    if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
-                                                        alert(fldLangVal[i] + ' no puede ser nulo.');
-                                                        fieldObj.focus();
-                                                        return false;
-                                                    }
-                                                } else if (fieldObj.type == 'checkbox') {
-                                                    if (fieldObj.checked == false) {
-                                                        alert('Please accept  ' + fldLangVal[i]);
-                                                        fieldObj.focus();
-                                                        return false;
-                                                    }
-                                                }
-                                                try {
-                                                    if (fieldObj.name == 'Last Name') {
-                                                        name = fieldObj.value;
-                                                    }
-                                                } catch (e) { }
-                                            }
-                                        }
-                                        if (!validateEmail5842249000000938063()) { return false; }
-                                        document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
-                                    }
-
-                                    function tooltipShow5842249000000938063(el) {
-                                        var tooltip = el.nextElementSibling;
-                                        var tooltipDisplay = tooltip.style.display;
-                                        if (tooltipDisplay == 'none') {
-                                            var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
-                                            for (i = 0; i < allTooltip.length; i++) {
-                                                allTooltip[i].style.display = 'none';
-                                            }
-                                            tooltip.style.display = 'block';
-                                        } else {
-                                            tooltip.style.display = 'none';
-                                        }
-                                    }
-                                </script>
-                                <!-- Do not remove this --- Analytics Tracking code starts -->
-                                <script id='wf_anal' src='https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=96f660af4bb3a3b3e0732287c05e9cf867bc00f37061ecfd39c10dbebf3d7df6gidebc2c2868ab25c7166dec961ed55d2cf23ffb4955fa59c57ee41f85b359b007dgid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513&tw=61690b96c1d0471b638f31426f38e68aa67fb7ed6da86f32dc10ad817fe55a0a'></script><!-- Do not remove this --- Analytics Tracking code ends. --></form>                                <!-- Do not remove this --- Analytics Tracking code ends. -->
-                            </form>
-                            <p class="medium">
-                                * El destinatario deberá aplicar a una cuenta Sacbé en México. En México, las cuentas con
-                                tarjeta Sacbé están patrocinadas por separado por Sacbé Payments de México, S.A.P.I de C.V.
-                                Institución de Fondos de Pago Electrónico conforme a una licencia de Mastercard International.
-                                ** Para más información acerca de tasas y tarifas ver el Contrato del Titular de la Tarjeta Sacbé Visa™.
-                            </p>
-
+                                        IOS
+                                    </span>
+                                 </a>
+                            </div>
                         </div>
-                        <!--<div class="group_download mt-4">
-                            <p>Próximamente disponible en</p>
-                            <a href="https://apps.apple.com/US/app/id1526398350?mt=8" target="_blank"><img src="assets/img/btn_apple_es.svg" alt="botón descargar appstore" class="imgBtnStore"></a>
-                            <a href="https://play.google.com/store/apps/details?id=com.sacbepayments.numi.android&amp;hl=es_419&amp;gl=US" target="_blank">
-                                <img src="assets/img/btn_playStore_es.svg" alt="imagen botón descargas playstore" class="imgBtnStore">
-                            </a>
-                        </div>-->
+
+                        </button>
+                        <!-- FOOTER -->
+                        <footer class="hero-footer">
+                            <p class="hide-mobile" style="font-weight: bold; align-self: start; margin: 0;">Disponible en</p>
+                            <div class="hero-footer-imgs-container">
+                               <a href="https://apps.apple.com/us/app/la-causa/id6467048483">
+
+                                   <img src="./assets/img/app-store.png" alt="Link App Store"  class="hero-content-images">
+                                </a>
+                                <a href="https://play.google.com/store/apps/details?id=com.sacbepayments.lacausa.android">
+
+                                    <img src="./assets/img/play-store.png" alt="Link a Google Play" class="hero-content-images">
+                                </a>
+                            </div>
+                            <p  class="hero-footer-disclaimer" >*El destinatario deberá aplicar a una cuenta Sacbé en México. En México, las cuentas con tarjeta Sacbé están patrocinadas por separado por Sacbé Payments de México, S.A.P.I de C.V. Institución de Fondos de Pago Electrónico conforme a una licencia de Mastercard International. **Esta tarjeta es emitida por el Metropolitan Commercial Bank (Miembro FDIC). El programa de tarjeta es comercializado y administrado por Sacbé.</p>
+                        </footer>
                     </div>
-                    <div class="imgWrapper">
+
+                <!-- END -->
+                <div class="imgWrapper ">
                         <img src="./assets/img/Landing_thank_you_page.png" alt="Enlace a video Corporativo de Sacbé"
-                            title="Enlace a video Corporativo de Sacbé" class="ImgenSeccionUno">
-                    </div>
+                            title="Enlace a video Corporativo de Sacbé" class=" ImgenSeccionUno margin-none ">
+                </div>
                 </div>
 
                 <div class="copyWrapper displayPortrait textUppercase">
-                    <p class="copy">CONTIGO<b class="colorYellow"> VAMOS MÁS LEJOS</b></p>
+                    <p class="copy">With you<b class="colorYellow"> we go further
+                    </b></p>
                 </div>
             </section>
 
@@ -274,7 +178,7 @@
 
                     <div class="contentWrapper" id="contentWrapperOfSectionThree">
                         <h2 class="headingTwo textUppercase displayPortrait" id="headingTwoOfSectionThree">
-                            beneficios <span class="colorYellow" >LA CAUSA VISA™</span> 
+                            beneficios <span class="colorYellow" >LA CAUSA VISA™</span>
                         </h2>
                         <h2 class="headingTwo textUppercase displayLandscape" id="headingTwoOfSectionThree">
                             beneficios <br><span class="colorYellow">la causa visa™</span>
@@ -394,7 +298,7 @@
                         <p class="regularParagraph" id="regularParagraphOfSectionThree">
                             Nos aliamos para acercarte cada vez más a tus sueños. Es por eso que creamos <b>La
                                 Causa</b>, una solución financiera con los valores de <b>Chicanos por la Causa</b>  y la
-                            plataforma tecnológica de <b>Sacbé Visa™</b> 
+                            plataforma tecnológica de <b>Sacbé Visa™</b>
                         </p>
 
                     </div>
@@ -416,9 +320,9 @@
                 <div class="contentImageWrapperrl" id="contentImageWrapperrlOfSectionFive">
                     <div class="contentWrapper" id="contentWrapperOfSectionFive">
                         <h2 class="headingTwo textUppercase" id="headingTwoOfSectionFive">
-                            <span>Preguntas Frecuentes</span> 
+                            <span>Preguntas Frecuentes</span>
                             <div style="display: flex; align-items: center;">
-                                <br><p style="margin: 0; margin-top: 1vh;">SOBRE TU <b class="colorYellow"> CUENTA la causa™</b></p> 
+                                <br><p style="margin: 0; margin-top: 1vh;">SOBRE TU <b class="colorYellow"> CUENTA la causa™</b></p>
                             </div>
                         </h2>
                         <div class="accordion">
