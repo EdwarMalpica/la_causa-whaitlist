@@ -1,0 +1,154 @@
+.slider,
+.slider2 {
+  max-width: 940px;
+}
+
+.slide_viewer{
+  height: 55vh;
+  overflow: hidden;
+  position: relative;
+}
+.slide_viewer2 {
+  height: 47vh;
+  overflow: hidden;
+  position: relative;
+  max-height: 400px;
+}
+
+.slide_group,
+.slide_group2 {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.slide2 {
+  display: none;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+}
+
+.slide:first-child {
+  display: block;
+}
+.slide2:first-child {
+  display: block;
+}
+.slide:nth-of-type(1) {
+}
+
+.slide:nth-of-type(2) {
+}
+
+.slide:nth-of-type(3) {
+}
+
+.slide:nth-of-type(4) {
+}
+
+.slide_buttons,
+.slide_buttons2 {
+  text-align: center;
+  height: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+a.slide_btn,
+a.slide_btn2 {
+  border: 1px solid var(--darkCyan);
+  border-radius: 50px;
+  padding: 5px;
+  font-size: 42px;
+  margin: 0 0.175em;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide_btn.active,
+.slide_btn:hover,
+.slide_btn2.active,
+.slide_btn2:hover {
+  background-color: var(--darkCyan);
+  cursor: pointer;
+}
+
+.directional_nav {
+  height: 340px;
+  margin: 0 auto;
+  max-width: 940px;
+  position: relative;
+  top: -340px;
+}
+
+.previous_btn {
+  bottom: 0;
+  left: 100px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+}
+
+.next_btn {
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  right: 100px;
+  top: 0;
+}
+
+.previous_btn,
+.next_btn {
+  cursor: pointer;
+  height: 65px;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  width: 65px;
+}
+
+.previous_btn:hover,
+.next_btn:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .previous_btn {
+    left: 50px;
+  }
+  .next_btn {
+    right: 50px;
+  }
+  .slider-costume{
+
+  }
+  .slider,
+  .slider2 {
+    max-width: 400px;
+  }
+  .slide2 {
+    max-width: 400px;
+    justify-content: center;
+    align-items: center;
+  }
+  .slide_group2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

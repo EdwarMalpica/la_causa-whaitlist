@@ -17,7 +17,6 @@
 }
 
 #headingTwoOfSectionSix {
-    inline-size: 59vh;
     line-height: 7vh;
     color: var(--lightYellow);
 }
@@ -50,8 +49,7 @@
 #sectionSix #regularParagraphOfSectionThree {
     color: var(--lightYellow);
     font-family: var(--baseFontTitles);
-    inline-size: 45vh;
-    font-size: 3.25vh;
+    font-size: calc(1vw*1.77 + 1vh);
     line-height: 1;
     margin-top: 2vh;
     font-weight: 200;
@@ -66,6 +64,8 @@
     #contentWrapperOfSectionSix {
         padding-inline-start: 0;
         text-align: center;
+        width: 100%;
+        justify-content: center;
     }
 
     #contentWrapperrlOfSectionSix {
@@ -84,14 +84,14 @@
         line-height: 5vh;
     }
     .imgLogoMobile {
-        width: 20vh;
+        width: 60%;
         height: auto;
         margin: 10vh auto;
     }
     #contentImageWrapperrlOfSectionSix {
         padding: 9vh 0 3vh;
         inline-size: 100vw;
-        block-size: unset;
+        block-size: 90vh;
         bottom: 3vh;
         gap: 5vw;
         top: 0;
@@ -102,5 +102,6 @@
     #sectionSix #regularParagraphOfSectionThree {
         inline-size: 90vw;
         letter-spacing: 0.5px;
+        font-size:calc(1.4vh * 2 + 1.4vw);
     }
 }

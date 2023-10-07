@@ -8,35 +8,30 @@
 }
 
 .caja {
-  width: 22%;
-  padding: 16px 23px;
+  width: auto;
+  padding: 20px 23px;
   box-sizing: border-box;
   text-align: left;
   border-radius: 20px;
   color: var(--lightYellow);
   text-transform: uppercase;
   font-family: var(--baseFontTitles);
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250px;
+  min-width: 250px;
 }
 
-.caja .icono {
-  font-size: 3vh;
-  line-height: 0.5;
-  margin-bottom: 10px;
-  background-color: var(--darkCyan);
-  width: fit-content;
-  padding: 21px 14px 19px 14px;
-  border-radius: 50px;
-}
+
 
 .caja .texto {
   display: flex;
-  font-size: 2rem;
+  font-size: calc(1vw*1.77 + 1vh);
   line-height: 0.9;
   justify-content: center;
   width: 100%;
   flex-direction: column;
-  height: 19.5vh;
 }
 
 .caja .texto p {

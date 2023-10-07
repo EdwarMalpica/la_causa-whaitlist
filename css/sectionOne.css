@@ -17,9 +17,9 @@
   flex-direction: column;
   margin: 0;
   padding-inline-start: 1em;
-  gap: 20px;
   /* max-width: 600px; */
   inline-size: 50%;
+  height: 90%;
 }
 .hero-footer {
   align-self: flex-start;
@@ -123,7 +123,7 @@
   margin: 0;
   margin-top: 20px;
   width: 410px;
-  font-size: 12px;
+  font-size: calc(0.3vw*1.77 + 0.3vh);
   text-align: start;
 }
 .form-row input {
@@ -163,18 +163,21 @@
 }
 
 .title-hero {
-  font-size: 127px !important;
   white-space: nowrap;
 }
 .caption-hero {
   margin: 0 !important;
-  font-size: 22px !important;
   max-width: 508px !important;
 }
 .download-btn {
   width: 35%;
-  margin: 0;
+  margin: 5% 0 2% 0;
   position: relative;
+}
+.small-xs{
+  font-size:calc(0.4vw * 1.77 + 0.4vh);
+  color: var(--lightYellow);
+  text-align: center;
 }
 @media screen and (max-width: 940px) {
   .imgWrapper img {
@@ -182,9 +185,6 @@
   }
   .hero-content-container {
     max-width: 250px;
-  }
-  .hero-footer-disclaimer {
-    font-size: 08px !important;
   }
   .hide-mobile {
     display: none;
@@ -216,20 +216,16 @@
     gap: 10px;
     align-self: center;
   }
-  .title-hero {
-    font-size: 67px !important;
-  }
+ 
   .hero-footer-disclaimer {
     margin: 0;
     width: 300px;
-    font-size: 12px;
+    font-size: calc(0.5vh * 2 + 0.5vw);
     text-align: center;
   }
 
   .caption-hero {
-    margin: 0 !important;
-    font-size: 18px !important;
-    max-width: 508px !important;
-    width: 322px;
+    font-size: calc(0.9vh*2 + 0.9vw) ;
+    min-width: 330px;
   }
 }

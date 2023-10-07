@@ -4,18 +4,15 @@
 
 #headingTwoOfSectionFive {
     inline-size: 90vh;
-    line-height: 0.1;
     color: var(--darkCyan);
     font-size: 9vh;
-    margin-top: 8vh;
 }
 
 #contentImageWrapperrlOfSectionFive {
     gap: 3vw;
     inline-size: 100vw;
-    block-size: 70vh;
+    block-size: 90vh;
     bottom: 3vh;
-    gap: 5vw;
 }
 
 #headingTwoOfSectionFive span{
@@ -101,14 +98,12 @@
     #headingTwoOfSectionFive {
         inline-size: 100%;
         font-size: 5vh;
-        line-height: .9;
         margin: 3vh auto;
     }
     #headingTwoOfSectionFive div{
         justify-content: center;
     }
     .accordion br{
-        display: none !important;
         height: 0px;
     }
 
