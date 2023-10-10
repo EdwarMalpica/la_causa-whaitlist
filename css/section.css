@@ -57,7 +57,7 @@ p.medium {
   font-size: calc(2.5vw * 1.77 + 2.5vh);
   margin: 0;
   color: var(--darkCyan);
-  line-height: 0.9;
+  line-height: 0.8;
 }
 
 .headingThree {
@@ -243,10 +243,14 @@ p.medium {
   transform: translateX(50%);
   white-space: nowrap;
 }
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 940px)  {
   .no-desktop {
     display: none !important;
   }
+}
+
+@media screen and (max-width: 380px) {
+  
 }
 @media screen and (max-width: 720px) {
 
@@ -315,7 +319,7 @@ p.medium {
   }
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 940px)  {
   .small-xs{
     font-size:calc(0.5vh * 2 + 0.5vw);
     text-align: center;
@@ -348,7 +352,9 @@ p.medium {
     height: 100%;
     justify-content: center;
   }
-
+  .displayFlex{
+    display: flex !important;
+  }
   .contentWrapperrl {
     justify-content: center;
     margin: 0;
@@ -387,6 +393,7 @@ p.medium {
     text-align: center;
     font-size: 7vh;
     inline-size: 39vh;
+    line-height: 0.9;
   }
 
   .veryImportantParagraph {

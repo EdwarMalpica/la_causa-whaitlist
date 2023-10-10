@@ -1,7 +1,9 @@
 #sectionFive{
     background: var(--lightYellow);
 }
-
+#sectionFaqs{
+    background: var(--lightYellow);
+}   
 #headingTwoOfSectionFive {
     inline-size: 90vh;
     color: var(--darkCyan);
@@ -15,9 +17,6 @@
     bottom: 3vh;
 }
 
-#headingTwoOfSectionFive span{
-    line-height: 12vh;
-}
 
 #imgWrapperOfSectionFive {
     display: flex;

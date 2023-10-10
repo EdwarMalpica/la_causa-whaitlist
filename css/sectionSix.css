@@ -48,12 +48,11 @@
 
 #sectionSix #regularParagraphOfSectionThree {
     color: var(--lightYellow);
-    font-family: var(--baseFontTitles);
-    font-size: calc(1vw*1.77 + 1vh);
+    font-family: var(--baseFontFamily);
+    font-size: calc(0.5vw*1.77 + 0.5vh);
     line-height: 1;
     margin-top: 2vh;
     font-weight: 200;
-    text-transform: uppercase;
 }
 
 #sectionSix .copyWrapper{
@@ -77,12 +76,11 @@
         display: flex;
         justify-content: center;
         inline-size: 45vh;
-        font-size: 6vh;
+        font-size: calc(2.8vh * 2 + 2.8vw);
+        line-height: 1;
     }
 
-    #headingTwoOfSectionSix span {
-        line-height: 5vh;
-    }
+    
     .imgLogoMobile {
         width: 60%;
         height: auto;
@@ -102,6 +100,8 @@
     #sectionSix #regularParagraphOfSectionThree {
         inline-size: 90vw;
         letter-spacing: 0.5px;
-        font-size:calc(1.4vh * 2 + 1.4vw);
+        font-size:1rem;
+        text-align: center;
+        font-weight: bold;
     }
 }
