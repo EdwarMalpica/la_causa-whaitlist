@@ -103,7 +103,7 @@
 #contentImageWrapperrlOfSectionThree {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     inline-size: 85vw;
     block-size: 70vh;
 }

@@ -120,9 +120,9 @@
 }
 .hero-footer-disclaimer {
   margin: 0;
-  margin-top: 20px;
   font-size: calc(0.3vw*1.77 + 0.3vh);
   text-align: start;
+  font-weight: 500;
 }
 .form-row input {
   border: 2px solid #10454f;

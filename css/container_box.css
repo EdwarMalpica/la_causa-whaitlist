@@ -1,6 +1,6 @@
 .contenedor-principal {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: flex-end;
   gap: 1.2vw;
   justify-content: center;
@@ -83,7 +83,7 @@
 @media screen and (max-width: 1200px) and (min-width: 940px) {
   .contenedor-principal {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: end;
     gap: 3vh;

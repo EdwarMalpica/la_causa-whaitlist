@@ -36,8 +36,11 @@ footer {
 .footer_column_uno ul li p a{
     color: #FFF7D2;
     font-size: 1.65vh;
+    font-weight: bold;
 }
-
+.weight-bold{
+    font-weight: bold;
+}
 .logo_footer {
     width: 20vh;
     height: auto;
@@ -71,7 +74,7 @@ hr{
     font-size: 2vh;
 }
 .footer_column_dos .text-center img {
-    height: 9vh;
+    height: 45vh;
     margin-top: 6vh;
     margin-bottom: 5vh;
 }
@@ -134,7 +137,11 @@ hr{
         width: 6vh;
     }
     .footer_column_dos .text-center img {
-        height: 4vh;
+        height: auto;
         margin-top: 4vh;
     }
+    .text-center img{
+        width: 50%;
+    }
+    
 }
