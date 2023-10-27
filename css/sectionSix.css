@@ -49,10 +49,12 @@
 #sectionSix #regularParagraphOfSectionThree {
     color: var(--lightYellow);
     font-family: var(--baseFontFamily);
-    font-size: calc(0.5vw*1.77 + 0.5vh);
-    line-height: 1;
-    margin-top: 2vh;
-    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-block-start: 2vh;
+    margin-block-end: 2vh;
+    width: 90%;
 }
 
 #sectionSix .copyWrapper{
