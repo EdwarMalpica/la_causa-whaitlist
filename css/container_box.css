@@ -21,7 +21,6 @@
   justify-content: space-between;
   min-height: 250px;
   min-width: 250px;
-  height: 100%;
 }
 
 
@@ -83,9 +82,9 @@
 @media screen and (max-width: 1200px) and (min-width: 940px) {
   .contenedor-principal {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: end;
+    justify-content: center;
     gap: 3vh;
   }
  

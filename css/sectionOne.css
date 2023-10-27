@@ -18,8 +18,8 @@
   margin: 0;
   padding-inline-start: 1em;
   /* max-width: 600px; */
-  inline-size: 50%;
   height: 90%;
+  justify-content: center;
 }
 .hero-footer {
   align-self: flex-start;
@@ -49,14 +49,22 @@
 }
 
 .imgWrapper img {
-  block-size: 80vh;
+  width: 70%;
   cursor: pointer;
   margin-right: 7vw;
 }
-
+.imgWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
 #sectionTh img {
-  height: 60vh;
-  width: auto;
+  width: 80%;
+  max-width: 500px;
+  min-width: 300px;
+  margin: auto;
 }
 
 .imgWrapper p {
@@ -171,6 +179,7 @@
   width: 35%;
   margin: 5% 0 2% 0;
   position: relative;
+  min-width: 300px;
 }
 .small-xs{
   font-size:calc(0.4vw * 1.77 + 0.4vh);
