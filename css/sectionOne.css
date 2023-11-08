@@ -19,7 +19,6 @@
   padding-inline-start: 1em;
   /* max-width: 600px; */
   height: 90%;
-  justify-content: center;
 }
 .hero-footer {
   align-self: flex-start;
