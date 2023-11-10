@@ -87,10 +87,10 @@
 }
 
 .buttonLanguages{
-    /* background-color: var(--darkYellow); */
+    background-color: var(--darkYellow);
     border: 0vh;
-    /* color: var(--lightYellow); */
-    color: darkgrey;
+    color: var(--lightYellow); 
+    /*color: darkgrey; Disabled*/ 
     padding: 0.75vh 1.2vh 0.5vh;
     border-radius: 3vh;
     font-size: 1.1vh;
