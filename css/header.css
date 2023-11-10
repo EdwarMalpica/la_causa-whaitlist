@@ -95,6 +95,7 @@
     border-radius: 3vh;
     font-size: 1.1vh;
     font-weight: bold;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 940px) {

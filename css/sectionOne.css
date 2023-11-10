@@ -1,7 +1,9 @@
 #sectionOne {
   background: var(--lightYellow);
 }
-
+#seccionEnviaDinero{
+  background: var(--lightYellow);
+}
 .headingOne-firstLine {
   color: var(--darkCyan);
   line-height: 0.85;
