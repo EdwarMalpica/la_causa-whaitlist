@@ -15,8 +15,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* Scroll adjust at begining */
-  scroll-snap-align: start;
   position: relative;
   overflow-x: hidden;
 }
@@ -343,7 +341,6 @@ p.medium {
   .section {
     top: 0vh;
     display: block;
-    scroll-snap-align: none;
     block-size: auto;
   }
 
