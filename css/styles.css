@@ -95,6 +95,10 @@
   align-items: center;
   z-index: 999009;
 }
+:root .zsiq_flt_rel{
+  background-color: var(--darkYellow) !important;
+  border: 2px solid var(--darkCyan) !important;
+}
 .logo {
   width: 200px;
   height: 200px;
