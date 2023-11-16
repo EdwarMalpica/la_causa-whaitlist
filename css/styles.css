@@ -108,6 +108,33 @@
   background-position: center;
   animation: zoomInLogo 2s forwards;
 }
+@media screen and (max-height: 810px) and (max-width: 1100px) {
+  .veryImportantParagraphTwo b{
+    font-size: 0.8rem;
+}
+  .copyWrapper{
+    display: none;
+  }
+  #sectionFooter{
+    height: auto;
+  }
+  .content-client{
+    flex-wrap: wrap;
+  }
+  .imgWrapper{
+    width: 50%;
+  }
+  .hero-content-container{
+    justify-content: center;
+  }
+  #sectionFive{
+    height: 130vh;
+  }
+  #sectionThree{
+    height: 115vh;
+  }
+
+}
 @media screen and (max-width: 940px) {
   .logo{
     width: 200px;
