@@ -36,6 +36,7 @@
 
 .caja .texto p {
   margin-block-end: 0;
+  font-family: var(--baseFontTitles);
 }
 
 /* Estilo para las cajas 1, 3 y 5 */

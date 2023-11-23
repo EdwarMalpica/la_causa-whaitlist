@@ -3,6 +3,7 @@
 }
 #sectionFaqs{
     background: var(--lightYellow);
+    block-size: auto;
 }   
 #headingTwoOfSectionFive {
     inline-size: 90vh;
@@ -13,7 +14,7 @@
 #contentImageWrapperrlOfSectionFive {
     gap: 3vw;
     inline-size: 100vw;
-    block-size: 90vh;
+    block-size: auto;
     bottom: 3vh;
 }
 
@@ -80,8 +81,14 @@
 }
 
 #contentWrapperOfSectionFive {
+    width: 100%;
     padding-inline-start: 0vw;
-    inline-size: 75%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
 }
 
 @media screen and (max-width: 940px){
@@ -178,7 +185,5 @@
     #headingTwoOfSectionFive span {
         line-height: 1;
     }
-    .accordion-header{ 
-        padding: 1vh 2vh !important;
-    }
+    
 }

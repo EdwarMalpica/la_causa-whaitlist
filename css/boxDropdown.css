@@ -1,0 +1,27 @@
+.box-dropdown{
+    
+}
+.box-header{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+    border: 2px solid var(--darkYellow);
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--darkCyan);
+    color: var(--lightYellow);
+    font-family: var(--baseFontTitles);
+}
+.box-header:hover{
+    background-color: var(--darkYellow);
+    color: var(--darkCyan);
+}
+.box-header h3{
+    font-weight: 400;
+    font-size: 3vh;
+
+}
+.box-content{
+
+}

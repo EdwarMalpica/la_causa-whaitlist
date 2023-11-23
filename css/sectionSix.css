@@ -4,7 +4,7 @@
 
 #imgWrapperOfSectionSix {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     position: relative;
     width: 44%;

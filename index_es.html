@@ -14,7 +14,8 @@
     <title>La Causa</title>
 
     <link rel="icon" type="image/ico" href="./assets/img/favicon.ico">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="scripts/preloader.js"></script>
@@ -109,7 +110,7 @@
         </div>
     </header>
 
-    <div class="container">
+    <div class="container-web">
         <main>
             <!-- Section One -->
             <section class="section hero-section displayFlex" id="sectionOne">
@@ -268,17 +269,18 @@
                             </span>
                         </p>
                         <h2 class="veryImportantParagraph" id="titleEnvia">
-                            <b>Envía dinero de Estados Unidos a México por <br class="no-mobile">
-                                $1.50** con saldo de tus cuentas bancarias, <br class="no-mobile">
-                                tarjetas débito o crédito, y hasta con efectivo <br class="no-mobile">
-                                desde tu tienda más cercana***
+                            <b>
+                                Tu dinero en Estados Unidos viaja a México* por <br class="no-mobile">
+                                $1.50**. Carga tu Cuenta La Causa con cuentas <br class="no-mobile">
+                                bancarias, tarjetas de débito, crédito y <br class="no-mobile">
+                                efectivo.***
                                 <br><br>
                                 También puedes solicitar tu tarjeta física <br class="no-mobile">
                                 para hacer compras o retirar dinero en <br class="no-mobile">
                                 cajeros automáticos (ATM)</b>
                         </h2>
                         <p class="small"
-                            style="text-align: justify; max-width: 450px; word-wrap: normal; width: 400px;">
+                            style="text-align: left; max-width: 450px; word-wrap: normal; width: 400px;">
                             *El destinatario deberá aplicar a una cuenta Sacbé en México.
                             En México, las cuentas con tarjeta Sacbé están patrocinadas
                             por separado por Sacbé Payments de México, S.A.P.I de C.V.
@@ -312,10 +314,10 @@
                         </p>
                         <h2 class="veryImportantParagraphTwo">
                             <b>
-                                Envía dinero de Estados Unidos a México por <br class="no-mobile">
-                                $1.50** con saldo de tus cuentas bancarias, <br class="no-mobile">
-                                tarjetas débito o crédito, y hasta con efectivo <br class="no-mobile">
-                                desde tu tienda más cercana***
+                                Tu dinero en Estados Unidos viaja a México* por <br class="no-mobile">
+                                $1.50**. Carga tu Cuenta La Causa con cuentas <br class="no-mobile">
+                                bancarias, tarjetas de débito, crédito y <br class="no-mobile">
+                                efectivo.***
                                 <br><br>
                                 También puedes solicitar tu tarjeta física <br class="no-mobile">
                                 para hacer compras o retirar dinero en <br class="no-mobile">
@@ -520,208 +522,213 @@
             <!-- Section Four -->
             <section class="section" id="sectionFaqs">
                 <div class="contentImageWrapperrl" id="contentImageWrapperrlOfSectionFive">
-                    <div class="contentWrapper" id="contentWrapperOfSectionFive">
+                    <div class="" id="contentWrapperOfSectionFive">
                         <h2 class="headingTwo textUppercase" id="headingTwoOfSectionFive">
                             Preguntas Frecuentes
                             SOBRE TU <b class="colorYellow">CUENTA la causa™</b>
                         </h2>
-                        <div class="accordion">
-                            <div class="accordion-item textUppercase">
-                                <div class="accordion-header">
-                                    <span><img src="./assets/img/icono_more.svg" alt="Icono más" height="22"></span>
-                                    <h3>¿Qué documentos necesito para<br class="no-desktop"> abrir una cuenta La Causa™?
-                                    </h3>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="true"
+                                        aria-controls="collapseFive">
+                                        <span><img class="plus-button" src="./assets/img/icono_more.svg" alt="Icono más"
+                                                height="22"></span>
+                                        <h3>¿Qué documentos necesito para<br class="no-desktop"> abrir una cuenta La
+                                            Causa™?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="accordion-img">
+                                            <img src="assets/img/Faq1.png" alt="">
+                                        </div>
+                                        <div class="accordion-content ">
+                                            <h4 class="text-secondary limit-p">
+                                                Aceptamos los siguientes documentos* para registrarte:
+                                            </h4>
+                                            <ul class="text-secondary" style="width: 100%; max-width: 379px;">
+                                                <li>Pasaporte</li>
+                                                <li>INE (Registro Electoral Mexicano)</li>
+                                                <li>IFE (Identificación Federal Mexicana)</li>
+                                                <li>Matrícula Consular Mexicana</li>
+                                                <li>Licencia de conducir de EE.UU</li>
+                                                <li>Identificación Estatal de EE.UU</li>
+                                                <li>Tarjeta de Residencia de EE.UU (Green Card)</li>
+                                            </ul>
+                                            <p class="small limit-p" style="color: var(--lightYellow); width: 100%;">
+                                                *Información adicional como comprobante de domicilio puede ser
+                                                requerida y/o la identificación debe tener foto para verificar
+                                                identidad.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="accordion-content">
-                                    <div class="popup_accordeon">
-                                        <div class="popup_accordeon-content">
-                                            <h2>¿Qué&nbsp;documentos&nbsp;necesito&nbsp;para<br
-                                                    class="no-desktop">abrir&nbsp;una&nbsp;cuenta&nbsp;La&nbsp;Causa™?
-                                            </h2>
-                                            <div class="modal-body">
-                                                <a class="popup-close" href="#"><img src="./assets/img/arrow.svg"
-                                                        alt="botón atrás"></a>
-                                                <!-- <p class="limit-p">
-                                                    <br/><b> No necesitas Social Security Number* ni tarjeta de residente permanente.</b>
-                                                </p> -->
-                                                <p class="text-secondary limit-p">
-                                                    Aceptamos los siguientes documentos* para registrarte:
-                                                </p>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        <span><img class="plus-button" src="./assets/img/icono_more.svg" alt="Icono más"
+                                                height="22"></span>
+                                        <h3>¿Qué necesito para enviar dinero desde EE.UU a México?</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="accordion-img">
+                                            <img src="assets/img/Faq2.png" alt="">
+                                        </div>
+                                        <div class="accordion-content">
+                                            <p class="ms-5 text-secondary limit-p">
+                                            <h4>
+                                                Sigue estos pasos para enviar dinero a
+                                                México* con tu Cuenta La Causa:
+                                            </h4>
+                                            </p>
+                                            <ul style="max-width: 479px;" class="text-secondary ">
+                                                <li>Descarga la aplicación La Causa en tu celular**,
+                                                    tus contactos deben tener la aplicación Sacbé en México</li>
+                                                <li>Completa tu registro</li>
+                                                <li>Añade un método de pago</li>
+                                                <li>Elige o agrega un contacto, e ingresa el monto a enviar</li>
+                                                <li>Confirma los detalles de tu transacción y listo</li>
+                                            </ul>
+                                            <p class="small limit-p" style="color: var(--lightYellow); width: 100%;">
+                                                *El destinatario deberá aplicar a una cuenta Sacbé en México.
+                                                En México, las cuentas con tarjeta Sacbé están patrocinadas
+                                                por separado por Sacbé Payments de México, S.A.P.I de C.V.
+                                                Institución de Fondos de Pago Electrónico conforme a una
+                                                licencia de Mastercard International. **La aplicación es
+                                                compatible con dispositivos Android versión 4.5 y dispositivos
+                                                iOS versión 8 o posterior.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <span>
+                                            <img class="plus-button" src="./assets/img/icono_more.svg" alt="Icono más"
+                                                height="22">
+                                        </span>
+                                        <h3>¿CUÁNTO TIEMPO TARDAN LOS ENVÍOS EN LLEGAR A
+                                            CUENTAS SACBÉ O A CUALQUIER CUENTA BANCARIA EN MÉXICO?
+                                        </h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse "
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="accordion-img">
+                                            <img src="assets/img/Faq3.png" alt="">
+                                        </div>
+                                        <div class="accordion-content">
+                                            <h4>
+                                                Las transferencias a Cuentas Sacbé en México* o a
+                                                Cuentas Bancarias Mexicanas se procesan en tiempo
+                                                real** y solo tardan unos minutos en llegar al
+                                                destinatario
+                                            </h4>
+                                            <p class="small limit-p" style="color: var(--lightYellow); width: 100%;">
+                                                *El destinatario deberá aplicar a una cuenta Sacbé en México. En
+                                                México, las
+                                                cuentas con tarjeta Sacbé están patrocinadas por separado por Sacbé
+                                                Payments de México, S.A.P.I de C.V. Institución de Fondos de Pago
+                                                Electrónico
+                                                conforme a una licencia de Mastercard International. **Las
+                                                transacciones en
+                                                su Cuenta de Tarjeta se procesan en TIEMPO REAL y no pueden ser
+                                                canceladas.
+                                                Consulte nuestra política de cancelación y reembolso para obtener
+                                                información adicional.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                                <ul class="text-secondary" style="width: 100%; max-width: 379px;">
-                                                    <li>Pasaporte</li>
-                                                    <li>INE (Registro Electoral Mexicano)</li>
-                                                    <li>IFE (Identificación Federal Mexicana)</li>
-                                                    <li>Matrícula Consular Mexicana</li>
-                                                    <li>Licencia de conducir de EE.UU</li>
-                                                    <li>Identificación Estatal de EE.UU</li>
-                                                    <li>Tarjeta de Residencia de EE.UU (Green Card)</li>
-                                                </ul>
-                                                <p class="small limit-p"
-                                                    style="color: var(--lightYellow); width: 100%;">
-                                                    <!-- *Aplica para personas sin Social Security Number disponible pero que
-                                                    pueden proporcionar formas alternativas de identificación. -->
-                                                    *Información adicional como comprobante de domicilio puede ser
-                                                    requerida y/o la identificación debe tener foto para verificar
-                                                    identidad.
-                                                </p>
-                                            </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span><img class="plus-button" src="./assets/img/icono_more.svg" alt="Icono más"
+                                                height="22"></span>
+                                        <h3>¿A QUÉ PAÍSES PUEDO ENVIAR <br class="no-desktop"> DINERO CON MI CUENTA?
+                                        </h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse "
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="accordion-img">
+                                            <img src="assets/img/Faq4.png" alt="">
+                                        </div>
+                                        <div class="accordion-content">
+                                            <h4 class="text-secondary limit-p">
+                                                <b>
+                                                    En este momento, solo puedes enviar dinero desde
+                                                    tu Cuenta La Causa a familiares y amigos en
+                                                    México*
+                                                </b>
+                                            </h4>
+                                            <p class="small limit-p" style="color: var(--lightYellow); width: 100%;">
+                                                *El destinatario deberá aplicar a una cuenta Sacbé en México.
+                                                En México, las cuentas con tarjeta Sacbé están patrocinadas
+                                                por separado por Sacbé Payments de México,
+                                                S.A.P.I de C.V. Institución de Fondos de Pago Electrónico
+                                                conforme a una licencia de Mastercard International.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <div class="accordion-header textUppercase">
-                                    <span><img src="./assets/img/icono_more.svg" alt="Icono más" height="22"></span>
-                                    <h3>¿Qué necesito para enviar dinero desde EE.UU a México?</h3>
-                                </div>
-                                <div class="accordion-content">
-                                    <div class="popup_accordeon">
-                                        <div class="popup_accordeon-content">
-                                            <h2>¿Qué necesito para enviar <br class="no-desktop"> dinero desde EE.UU a
-                                                México?</h2>
-                                            <div class="modal-body">
-                                                <a class="popup-close" href="#"><img src="./assets/img/arrow.svg"
-                                                        alt="botón atrás"></a>
-                                                <p class="ms-5 text-secondary limit-p">
-                                                    <b>
-                                                        Sigue estos pasos para enviar dinero a
-                                                        México* con tu Cuenta La Causa:
-                                                    </b>
-                                                </p>
-                                                <ul style="max-width: 379px;" class="ms-5 text-secondary limit-p">
-                                                    <li>Descarga la aplicación La Causa en tu celular**,
-                                                        tus contactos deben tener la aplicación Sacbé en México</li>
-                                                    <li>Completa tu registro</li>
-                                                    <li>Añade un método de pago</li>
-                                                    <li>Elige o agrega un contacto, e ingresa el monto a enviar</li>
-                                                    <li>Confirma los detalles de tu transacción y listo</li>
-                                                </ul>
-                                                <p class="small limit-p"
-                                                    style="color: var(--lightYellow); width: 100%;">
-                                                    *El destinatario deberá aplicar a una cuenta Sacbé en México.
-                                                    En México, las cuentas con tarjeta Sacbé están patrocinadas
-                                                    por separado por Sacbé Payments de México, S.A.P.I de C.V.
-                                                    Institución de Fondos de Pago Electrónico conforme a una
-                                                    licencia de Mastercard International. **La aplicación es
-                                                    compatible con dispositivos Android versión 4.5 y dispositivos
-                                                    iOS versión 8 o posterior.
-                                                </p>
-                                            </div>
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        <span><img class="plus-button" src="./assets/img/icono_more.svg" alt="Icono más"
+                                                height="22"></span>
+                                        <h3>¿Puedo recibir transferencias y pagos en mi Cuenta La Causa™?</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse "
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="accordion-img">
+                                            <img src="assets/img/Faq5.png" alt="">
+                                        </div>
+                                        <div class="accordion-content">
+                                            <h4 class="text-secondary limit-p">
+                                                <b>
+                                                    Sí, puedes recibir dinero dentro de Estados Unidos a
+                                                    través de depósitos directos, transferencias
+                                                    ACH, tarjetas de débito, tarjetas de crédito o
+                                                    cargas de efectivo en ubicaciones físicas
+                                                    proporcionadas por la red Greendot*
+                                                </b>
+                                            </h4>
+                                            <p class="small limit-p" style="color: var(--lightYellow); width: 100%;">
+                                                *Servicio proporcionado por la Red Greendot, pueden aplicarse
+                                                cargos adicionales. Para obtener más información, consulte
+                                                Contrato del Titular de la Tarjeta Prepagada La Causa Visa™.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <div class="accordion-header textUppercase">
-                                    <span><img src="./assets/img/icono_more.svg" alt="Icono más" height="22"></span>
-                                    <h3>¿CUÁNTO TIEMPO TARDAN LOS <br class="no-desktop"> ENVÍOS EN LLEGAR A MÉXICO?
-                                    </h3>
-                                </div>
-                                <div class="accordion-content">
-                                    <div class="popup_accordeon">
-                                        <div class="popup_accordeon-content">
-                                            <h2>¿CUÁNTO TIEMPO TARDAN LOS <br class="no-desktop"> ENVÍOS EN LLEGAR A
-                                                MÉXICO?</h2>
-                                            <div class="modal-body">
-                                                <a class="popup-close" href="#"><img src="./assets/img/arrow.svg"
-                                                        alt="botón atrás"></a>
-                                                <p class="ms-5 text-secondary limit-p">
-                                                    <b>
-                                                        Las transferencias a Cuentas Sacbé en México* o a
-                                                        Cuentas Bancarias Mexicanas se procesan en tiempo
-                                                        real** y solo tardan unos minutos en llegar al
-                                                        destinatario
-                                                    </b>
-                                                </p>
-                                                <p class="small limit-p"
-                                                    style="color: var(--lightYellow); width: 100%;">
-                                                    *El destinatario deberá aplicar a una cuenta Sacbé en México. En
-                                                    México, las
-                                                    cuentas con tarjeta Sacbé están patrocinadas por separado por Sacbé
-                                                    Payments de México, S.A.P.I de C.V. Institución de Fondos de Pago
-                                                    Electrónico
-                                                    conforme a una licencia de Mastercard International. **Las
-                                                    transacciones en
-                                                    su Cuenta de Tarjeta se procesan en TIEMPO REAL y no pueden ser
-                                                    canceladas.
-                                                    Consulte nuestra política de cancelación y reembolso para obtener
-                                                    información adicional.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="accordion-header textUppercase">
-                                    <span><img src="./assets/img/icono_more.svg" alt="Icono más" height="22"></span>
-                                    <h3>¿A QUÉ PAÍSES PUEDO ENVIAR <br class="no-desktop"> DINERO CON MI CUENTA?</h3>
-                                </div>
-                                <div class="accordion-content">
-                                    <div class="popup_accordeon">
-                                        <div class="popup_accordeon-content">
-                                            <h2>¿A QUÉ PAÍSES PUEDO ENVIAR <br class="no-desktop"> DINERO CON MI CUENTA?
-                                            </h2>
-                                            <div class="modal-body">
-                                                <a class="popup-close" href="#"><img src="./assets/img/arrow.svg"
-                                                        alt="botón atrás"></a>
-                                                <p class="ms-5 text-secondary limit-p">
-                                                    <b>
-                                                        En este momento, solo puedes enviar dinero desde
-                                                        tu Cuenta La Causa a familiares y amigos en
-                                                        México*
-                                                    </b>
-                                                </p>
-                                                <p class="small limit-p"
-                                                    style="color: var(--lightYellow); width: 100%;">
-                                                    *El destinatario deberá aplicar a una cuenta Sacbé en México.
-                                                    En México, las cuentas con tarjeta Sacbé están patrocinadas
-                                                    por separado por Sacbé Payments de México,
-                                                    S.A.P.I de C.V. Institución de Fondos de Pago Electrónico
-                                                    conforme a una licencia de Mastercard International.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <div class="accordion-header textUppercase">
-                                    <span><img src="./assets/img/icono_more.svg" alt="Icono más" height="22"></span>
-                                    <h3>¿Puedo recibir transferencias y pagos en mi Cuenta La Causa™?</h3>
-                                </div>
-                                <div class="accordion-content">
-                                    <div class="popup_accordeon">
-                                        <div class="popup_accordeon-content">
-                                            <h2>¿Puedo&nbsp;recibir&nbsp;transferencias&nbsp;y <br
-                                                    class="no-desktop">pagos&nbsp;en&nbsp;mi&nbsp;CUENTA&nbsp;LA&nbsp;CAUSA™?
-                                            </h2>
-                                            <div class="modal-body">
-                                                <a class="popup-close" href="#"><img src="./assets/img/arrow.svg"
-                                                        alt="botón atrás"></a>
-                                                <p class="ms-5 text-secondary limit-p">
-                                                    <b>
-                                                        Sí, puedes recibir dinero dentro de Estados Unidos a
-                                                        través de depósitos directos, transferencias
-                                                        ACH, tarjetas de débito, tarjetas de crédito o
-                                                        cargas de efectivo en ubicaciones físicas
-                                                        proporcionadas por la red Greendot*
-                                                    </b>
-                                                </p>
-                                                <p class="small limit-p"
-                                                    style="color: var(--lightYellow); width: 100%;">
-                                                    *Servicio proporcionado por la Red Greendot, pueden aplicarse
-                                                    cargos adicionales. Para obtener más información, consulte
-                                                    Contrato del Titular de la Tarjeta Prepagada La Causa Visa™.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
+
+
+
                     </div>
                 </div>
             </section>
@@ -1004,7 +1011,8 @@
                                             <span class="colorYellow weight-bold">
                                                 <!-- O
                                                 ESCRÍBENOS VIA WHATSAPP AL +1 (928) 237-9808. -->
-                                                PARA SERVICIO AL CLIENTE LLAMAR A LA CAUSA AL +1 (866) 625-2484  9AM - 9PM EST / 365 días.
+                                                PARA SERVICIO AL CLIENTE LLAMAR A LA CAUSA AL +1 (866) 625-2484 9AM -
+                                                9PM EST / 365 días.
                                             </span>
                                         </p>
                                         <p class="opc_es">
@@ -1068,7 +1076,7 @@
                                             Unidos. La traducción al español de esta página web es para comodidad de
                                             nuestros clientes. Las solicitudes, contenidos legales, documentos y
                                             cualquier otro material relacionado con los productos o servicios de La
-                                            Causa . que se promocionan en esta página serán publicados en
+                                            Causa que se promocionan en esta página serán publicados en
                                             inglés y español. Sin embargo, no todas las páginas en lacausa.us
                                             pudieran estar traducidas. Si existiera alguna discrepancia entre el
                                             contenido de una página traducida y el contenido de esa misma página en
@@ -1223,12 +1231,15 @@
         </main>
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <script src="./scripts/cotizador.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="scripts/slider.js"></script>
     <script src="./scripts/script.js"></script>
+    
 </body>
 
 </html>

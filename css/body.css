@@ -45,14 +45,6 @@
   color: #fff6d2;
 }
 
-body {
-  background: var(--darkCyan);
-  color: var(--darkCyan);
-  font: var(--baseText);
-  margin: 0;
-  font-family: var(--baseFontFamily);
-  overflow-x: hidden;
-}
 
 #logoSacbe {
   margin: 0;

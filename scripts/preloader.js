@@ -7,5 +7,5 @@ window.addEventListener("load", function () {
   setTimeout(function () {
     preloader.style.display = "none";
     contenido.style.display = "block";
-  }, 1000); // Cambia este valor si deseas que el preloader se muestre durante más tiempo
+  }, 10); // Cambia este valor si deseas que el preloader se muestre durante más tiempo
 });

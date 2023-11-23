@@ -49,20 +49,16 @@ fetch('https://us-central1-cloud-funcition.cloudfunctions.net/api/value')
 //
 inputNumber.addEventListener('input', () => {
 fetchData().then(data => {
-    console.log("Data:", data); // Verificar el valor de data
     const result = inputNumber.value * data;
     multipliedValue.value = result.toFixed(2);
-    console.log(result)
 });
 });
 
 //
 multipliedValue.addEventListener('input', () => {
 fetchData().then(data => {
-    console.log("Data:", data); // Verificar el valor de data
     const result = multipliedValue.value / data;
     setDollarSign(result.toFixed(2));
-    console.log(result)
 });
 });
 
