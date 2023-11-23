@@ -72,7 +72,7 @@ button:focus:not(:focus-visible) {
 .accordion-body {
   box-sizing: border-box;
   background-color: var(--darkCyan);
-  border-radius: 20px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -94,6 +94,9 @@ button:focus:not(:focus-visible) {
 .accordion-body .accordion-content {
   box-sizing: border-box;
   max-width: 610px;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
 }
 .accordion-body ul li {
   font-size: 0.9rem;
@@ -106,7 +109,10 @@ button:focus:not(:focus-visible) {
   transform: rotate(45deg);
   transition: transform 0.2s ease-in-out;
 }
+.accordion-button::after{
+  opacity: 0;
 
+}
 .accordion-body h4 {
   font-family: var(--baseFontTitles);
   font-size: 26px;
