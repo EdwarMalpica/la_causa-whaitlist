@@ -238,11 +238,8 @@ p.medium {
   font-family: var(--baseFontFamily);
   margin: 0;
   font-size: 12px;
-  position: absolute;
-  right: 50%;
-  bottom: 40px;
-  transform: translateX(50%);
   white-space: nowrap;
+  padding: 0;
 }
 @media screen and (min-width: 940px)  {
   .no-desktop {

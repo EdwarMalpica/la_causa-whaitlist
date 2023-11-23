@@ -23,6 +23,9 @@ footer {
     flex-wrap: wrap;
     width: 100vw;
 }
+.row_footer ul li{
+    margin: 10px 0px;
+}
 
 .footer_column_uno h5 {
     font-size: 2.5vh;
