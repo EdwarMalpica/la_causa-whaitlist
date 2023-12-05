@@ -3,8 +3,8 @@
 @import "./section.css";
 @import "./link.css";
 @import "./header.css";
-@import './slider.css';
-@import './boxDropdown.css';
+@import "./slider.css";
+@import "./boxDropdown.css";
 
 :root {
   --darkCyan: #0f4451;
@@ -47,7 +47,7 @@
 .small {
   font-family: var(--baseFontFamily);
   color: var(--darkCyan);
-  font-size:calc(0.3vw * 1.77 + 0.3vh);
+  font-size: calc(0.3vw * 1.77 + 0.3vh);
   line-height: 1;
   margin: 0px 0px;
   width: 70%;
@@ -96,13 +96,13 @@
   align-items: center;
   z-index: 999009;
 }
-:root .zsiq_flt_rel{
+:root .zsiq_flt_rel {
   background-color: var(--darkYellow) !important;
   border: 2px solid var(--darkCyan) !important;
 }
 p {
-  margin-top: initial ;
-  margin-bottom: initial ;
+  margin-top: initial;
+  margin-bottom: initial;
 }
 body {
   font-family: var(--baseFontFamily);
@@ -121,56 +121,62 @@ body {
   background-position: center;
   animation: zoomInLogo 2s forwards;
 }
-*, ::after, ::before{
+*,
+::after,
+::before {
   box-sizing: initial;
 }
-.limit-p{
+.limit-p {
   max-width: 600px;
 }
 
-@media screen and (max-height: 810px) and (max-width: 1100px) {
-  .veryImportantParagraphTwo b{
-    font-size: 0.8rem;
-}
+@media screen and (max-height: 940px) and (max-width: 1200px) {
   .copyWrapper{
     display: none;
   }
-  #sectionFooter{
+  .veryImportantParagraphTwo b {
+    font-size: 0.8rem;
+  }
+
+  #sectionFooter {
     height: auto;
   }
-  .content-client{
+  .content-client {
     flex-wrap: wrap;
     gap: 0.5rem;
   }
-  .imgWrapper{
+  .imgWrapper {
     width: 50%;
   }
-  .hero-content-container{
+  .hero-content-container {
     justify-content: center;
   }
-  #sectionFive{
+  #sectionFive {
     height: 130vh;
   }
-  #sectionThree{
+  #sectionThree {
     height: 115vh;
   }
-
+  #imgWrapperOfSectionSix{
+    block-size: 100vh;
+    bottom: 0;
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 940px) {
-  .logo{
+  .logo {
     width: 200px;
     height: 200px;
   }
+  .copyWrapper {
+    display: none;
+  }
   .small {
-    font-size: calc(0.4vh*2 + 0.4vw);
+    font-size: calc(0.4vh * 2 + 0.4vw);
     width: 85%;
   }
   .col-12 {
     width: 90vw;
-  }
-  .logo{
-    width: 200px;
-    height: 200px;
   }
   #sectionOneTerminos {
     font-size: 12px;

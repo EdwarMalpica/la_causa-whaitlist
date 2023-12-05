@@ -8,7 +8,7 @@
     align-items: center;
     position: relative;
     width: 44%;
-    block-size: 100vh;
+    block-size: 90vh;
     bottom: 2vh;
     overflow: hidden;
 }
@@ -28,11 +28,13 @@
 #contentImageWrapperrlOfSectionSix {
     width: 100%;
     gap: 3vw;
-    block-size: 70vh;
     bottom: 3vh;
+    align-items: flex-start;
+    display: flex;
 }
 
 #contentWrapperOfSectionSix {
+    justify-content: center ;
     padding-inline-start: 12.5vw;
     width: 45%;
 }
@@ -93,6 +95,8 @@
         inline-size: 100vw;
         block-size: 90vh;
         bottom: 3vh;
+        align-items: center;
+        justify-content: center;
         gap: 5vw;
         top: 0;
     }
